@@ -2,7 +2,7 @@ const SaludarRoutes = require("./routes/greet.routes.js")
 // const DespedirRoutes = require("./routes/greet.routes.js")
 const express = require("express")
 const cors = require("cors")
-const PORT = 3001;
+const PORT = 3000;
 
 
 const app = express();
