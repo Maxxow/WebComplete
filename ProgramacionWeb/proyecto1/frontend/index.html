@@ -33,21 +33,10 @@
             <button type="submit" class="bg-teal-500 py-1 px-5 text-stone-50 w-1/2">Agregar</button>
         </form>
 
-        <ul class="w-full flex flex-wrap justify-center items-center gap-4 mt-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            <li class="w-5/12 md:w-3/12 lg:w-2/10 p-3 rounded shadow-lg hover:bg-emerald-100 hover:shadow-x1 hover:scale-104 transition duration-150 ease-in-out">         <!--Aqui es la parte de la conf de las cards-->
-                <h3 class="text-lg font-bold text-emerald-950">Cuadro</h3>
-                <p class="text-md font-medium text-emerald-500 my-1.5">$50.30</p>
-                <span class="block text-sm text-gray-500">stock - 300</span>
-                <button class="flex-1 px-3 py-2.5 bg-teal-100 text-teal-700 rounden-md hover:bg-teal-200 flex items-center justify-center gap-2 transition-colors duration-200">
-                    <i class="bi bi-basket2"></i>
-                    Editar
-                </button>     <!--! El tipe de boton solo es en un formulario(FORM)-->
-                <button>
-                    <i class="bi bi-trash3"></i>
-                    Eliminar
-                </button>
-            </li>
+        <ul class="w-full flex flex-wrap justify-center items-center gap-4 mt-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4" id="contenedor-cards">
+
         </ul>
     </main>
+    <script src="./index.js"></script>
 </body>
 </html>
